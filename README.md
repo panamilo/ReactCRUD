@@ -10,11 +10,13 @@ Started the initial git commit with some of my Front End work just before I ente
    Table will be populated once the database is connected. Also have placeholders for the CRUD operations needed ( edit, delete )for each table entry 
 
 
-![image](https://user-images.githubusercontent.com/91724132/149515305-53a15963-fb5b-4945-9d69-c5b9eb94127f.png)
+![image](https://user-images.githubusercontent.com/91724132/149516086-f1ed6e8f-bcbc-41b1-9038-09d2edaa59e4.png)
+
 
 
 2. This is the create an entry modal.
 
-![image](https://user-images.githubusercontent.com/91724132/149515478-80b00ab4-8145-4e5c-a284-7c11bb5c3ca5.png)
+![image](https://user-images.githubusercontent.com/91724132/149516115-25544f5b-9263-451d-bc62-13abecfa9a3d.png)
+
 
 # Likewise there have been made modals for the edit and delete functionalities which will be later displayed.
