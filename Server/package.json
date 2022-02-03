@@ -1,0 +1,20 @@
+{
+  "name": "node-postgres",
+  "version": "1.0.0",
+  "description": "Node and Express interaction with PSQL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Node",
+    "Express",
+    "PostgresQL"
+  ],
+  "author": "panamilo",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "pg": "^8.7.1"
+  }
+}
