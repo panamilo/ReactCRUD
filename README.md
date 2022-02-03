@@ -24,5 +24,3 @@ Started the initial git commit with some of my Front End work just before I ente
 
 # Likewise there have been made modals for the edit and delete functionalities which will be later displayed.
 
-
-Begun to implement the back end into the App. Currently trying to connect the DB I have in Postgres and interact with the front end to display the DB entries. 
