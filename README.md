@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+This is the first patch of the application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Made some UI changes and configured the back end using Express and PostgreSQL.
 
-## Available Scripts
+UPDATE: Loom video presentation containing the current state of the application is up.
 
-In the project directory, you can run:
+TASKS: a) Format the date to be shown as Greeks read it ( DD-MM-YYYY ) .
+       b) Check Box instead of the Boolean variables in the Activity Tab.
+       c) Notifications and alerts for better user experience during the CRUD operations.
+       d) Routing the app (that includes making different screens and not being a SPA)
+       e) Make a few UI changes and preparations for the final presentation.
+       
+       
+This is the landing page. Due to the fact that there is no authentication for the app, the user is directed to the main page.
 
-### `npm start`
+1. Here the user can see the list of Employees currently on the DB ( or currently registered at the company) and their respective attributes.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![image](https://user-images.githubusercontent.com/91724132/159943197-30a93a18-49c4-4704-a393-bcf02666dd8b.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+2. The user can add an new Employee using this form on the left of the page.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![image](https://user-images.githubusercontent.com/91724132/159943478-eee6f236-54db-4d74-80fd-60e53609b5bd.png)
 
-### `npm run build`
+And you can see on the rigt that the new entry is added. 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![image](https://user-images.githubusercontent.com/91724132/159943659-bee9bd05-db85-48a0-91e9-28446a41dae3.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. Here you can edit an employee entry using the action button on the right of the entry you want to edit.
+   You can see the edit form taking the place of the new employee form.
 
-### `npm run eject`
+![image](https://user-images.githubusercontent.com/91724132/159943732-04f2eb79-ec0d-43bc-ba78-08d65708d5ce.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. Similarly, the user can Delete an entry by using the 'Delete' action Button. That way the entry is dropped from the table and the DB.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![image](https://user-images.githubusercontent.com/91724132/159943918-bdbdcc6c-1a04-4a53-9ba9-f1d1eb17932a.png)
+![image](https://user-images.githubusercontent.com/91724132/159943969-470eba4e-68b4-4cff-aafb-221ae3dede2b.png)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+This is the current state of the app. Thank you so much for reading this. Any changes/directions are highly appreciated! See you in the next patch,
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+panamilo
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
