@@ -1,4 +1,4 @@
-#This is a simplistic CRUD application made using React, Node, Express , PostgreSQL.
+#This is a simplistic CRUD application made using React, Node, Express , PostgreSQL.#
 
 First patch of changes to the application.
 
