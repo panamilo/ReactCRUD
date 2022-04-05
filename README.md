@@ -31,7 +31,7 @@ And you can see on the right that the new entry is added.
 **4. Similarly, the user can Delete an entry by using the 'Delete' action Button. That way the entry is dropped from the table and the DB.**
 
 ![image](https://user-images.githubusercontent.com/91724132/161734673-889a9b36-2cb9-4615-9eef-aaadcc9b4ce1.png)
-![image](https://user-images.githubusercontent.com/91724132/159943969-470eba4e-68b4-4cff-aafb-221ae3dede2b.png)
+![image](https://user-images.githubusercontent.com/91724132/161734932-56552744-9489-42b0-97a6-bcec4b903af5.png)
 
 
 **This is the current state of the app. Thank you so much for reading this. Any changes/directions are highly appreciated! See you in the next patch,
